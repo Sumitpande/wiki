@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+    <h1 class="text-danger text-center">Title Already Exists</h1>
+
+    <div class="text-center">
+        <a href="{% url 'index' %}" class="btn btn-info text-decoration-none ">Check Entry List</a>
+    </div>
+
+{% endblock %}
